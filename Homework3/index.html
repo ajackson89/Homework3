@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Password Generater</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body{
+          background-image: url('./images/email-pattern.png');
+        }
+    </style>
+</head>
+
+<body>
+   <header>
+        <div class="header">
+            <h1>Password Generater</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Generate A Password </h2>
+        <div class="container_output">
+        <input type="text" id="yourPw"/>
+        </div>
+        <input type="number" id="charNum" value="12" min="8" max="128" size="5"/><br />
+        <div class="container_footer">
+            <button class="button1" id="gen" >Generate Password</button>
+            <button class="button2" id="copy">Copy to Clipboard</button> 
+        </div>
+      
+    </div>
+
+
+    <script src="myscript.js"> </script>
+</body>
+</html>
